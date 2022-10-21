@@ -9,9 +9,9 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <b>{{tweet.user.name}}</b>
-                    <span class="base-300"><p>@{{tweet.user.username}}</p></span>
+                <div class="ml-3">
+                    <b>{{tweet.user.name}}</b>&nbsp;&nbsp;
+                    <span class="text-zinc-400">@{{tweet.user.username}}</span>
                     <p>{{tweet.content}}</p>
                     
                 </div>
